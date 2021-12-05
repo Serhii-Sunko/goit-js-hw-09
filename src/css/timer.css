@@ -1,9 +1,11 @@
 .timer {
   display: flex;
+  align-items: center;
   margin-top: 20px;
 }
 
 .field {
+  display: bloc;
   margin-right: 20px;
 }
 

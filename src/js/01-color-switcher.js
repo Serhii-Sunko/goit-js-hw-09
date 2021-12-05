@@ -12,9 +12,9 @@ let intId = null;
 refs.stop.disabled = true;
 
 const onStart = () => {
-  ntId = setInterval(() => {
+  intId = setInterval(() => {
     refs.body.style.backgroundColor = getRandomHexColor();
-  }, 1500);
+  }, 1200);
 
   refs.start.disabled = true;
   refs.stop.disabled = false;
